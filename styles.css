@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+
+
+
+*
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+body
+{
+  background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 30) 98.8%);
+}
+
+h1,
+h2
+{
+  color: azure;
+}
+
+h1
+{
+  font-family: 'Orbitron', sans-serif;
+}
+
+#header-div
+{
+  border: outset 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background: linear-gradient(to right, #252525 0%, black 100%);
+  border-color: rgb(199, 0, 0);
+}
+
+
+.divLink
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#SCP
+{
+  height: 50px;
+  width: 80%;
+  text-align: center;
+  color: azure;
+  background-image: linear-gradient(144deg, rgb(133, 23, 25), rgb(146, 25, 25) 50%, rgb(199, 0, 0));
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  text-decoration: none;
+
+
+}
+
+
+@media only screen and (max-width: 400px)
+{
+  h3
+  {
+    font-size: 0.8rem;
+  }
+}
+
+
+
+
+
+
+
+@media (min-width: 768px)
+{
+  #button
+  {
+    font-size: 1rem;
+    min-width: 196px;
+  }
+}
+
+
+.nav-item
+{
+  align-items: center;
+  background-image: linear-gradient(144deg, rgb(133, 23, 25), rgb(146, 25, 25) 50%, rgb(199, 0, 0));
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(187, 187, 187, 0.2) 0 5px 5px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 1rem;
+  justify-content: center;
+  max-width: 100%;
+  min-width: 140px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+img
+{
+
+  margin: 20px;
+  border: outset 5px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+  border-color: rgb(199, 0, 0);
+  min-width: 200px;
+  min-height: 300px;
+}
+
+#navbar
+{
+  border: outset 1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background: linear-gradient(to right, #252525 0%, black 100%);
+  border-color: rgb(199, 0, 0);
+
+}
+
+.update, .delete
+{
+  border: 0;
+  padding: 10px;
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  border-radius: 8px;
+  box-shadow: rgba(187, 187, 187, 0.2) 0 5px 5px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 1rem;
+  max-width: 100%;
+  min-width: 140px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.delete
+{
+  background-image: linear-gradient(144deg, rgb(133, 23, 25), rgb(146, 25, 25) 50%, rgb(199, 0, 0));
+
+}
+
+
+
+
+
+
+
