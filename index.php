@@ -21,7 +21,7 @@
         id="navbar"
       >
         <div class="container-fluid ">
-          <a class="navbar-brand" href="">SCP Files</a>
+          <a class="navbar-brand" href="">SCP Foundation</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -38,7 +38,7 @@
           
           
           
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown ms-3">
           <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             SCP Files
           </a>
@@ -61,7 +61,7 @@
   </div>
  
   
-  <!--  Kenworth Record from DB here -->
+  <!--  SCP Record from DB here -->
   <div>
       <?php 
       // Check if GET value has been passed if so, save as variable

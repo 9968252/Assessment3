@@ -1,8 +1,60 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+
+.added
+{
+    background-image: radial-gradient(rgb(199, 0, 0), rgb(146, 25, 25), rgb(133, 23, 25));
+     
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:20px;
+    padding:10px;
+    
+}
+
+.stylesDiv
+{
+    width:70vw;
+    background-color:black;
+    color:white;
+    border-radius: 10px;
+    border:3px solid white;
+   font-size:3em;
+   display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.return
+{
+    width:20vw;
+    border-radius: 10px;
+    font-size:2em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    margin-top:20px;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+</style>
 <?php
 //Database cerdentials
 $user = "a9968252_scpuser";
 $db = "a9968252_scp";
 $pw = "toiohomai1234";
+
 
 //Database connection
 $connection = new mysqli('localhost', $user, $pw, $db);
@@ -27,8 +79,10 @@ if(isset($_POST['submit']))
 
     if($connection->query($insert) === TRUE)
     {
-        echo "<h1>Successfully Added</h1>
-        <p><a href= 'index.php'>Back to index page</a></p>";
+        echo "<body class='added'>
+        <div class='stylesDiv'<h1>File has been successfully CREATED</h1></div>
+        <div class='return'> <a href= 'index.php'>Return to index page</a></div>
+        <body>";
     }
     else
     {
@@ -55,8 +109,10 @@ if(isset($_POST['update']))
     
     if($connection->query($update) === TRUE)
     {
-        echo "<h1>Successfully Updated</h1>
-        <p><a href= 'index.php'>Back to index page</a></p>";
+        echo "<body class='added'>
+        <div class='stylesDiv'<h1>File has been UPDATED</h1></div>
+        <div class='return'> <a href= 'index.php'>Return to index page</a></div>
+        <body>";
     }
     else
     {
@@ -79,8 +135,10 @@ if(isset($_GET['delete']))
        
        if($connection->query($del) === TRUE)
     {
-        echo "<h1>Successfully Deleted</h1>
-        <p><a href= 'index.php'>Back to index page</a></p>";
+        echo "<body class='added'>
+        <div class='stylesDiv'<h1>File has been DELETED from database</h1></div>
+        <div class='return'> <a href= 'index.php'>Return to index page</a></div>
+        <body>";
     }
     else
     {
