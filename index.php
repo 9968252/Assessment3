@@ -43,7 +43,7 @@
             SCP Files
           </a>
           <ul class="dropdown-menu">
-              <!-- run php loop through table and display model field here-->
+              <!-- run php loop through table and display item field here-->
               <?php foreach($result as $link): ?>
             <li><a class="dropdown-item rounded p-2 m-2" href="index.php?link='<?php echo $link['item']; ?>'"><?php echo $link['item']; ?></a></li>
             <?php endforeach; ?>

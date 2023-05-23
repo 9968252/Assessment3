@@ -43,8 +43,8 @@
         <br>
         <div class="d-flex justify-content-between">
             
-            <input type="submit" name="submit" value="Submit Record" class="btn btn-dark shadow-lg ms-4 p-3">
-            <a href="index.php" class="btn btn-success shadow-lg align-self-center me-4 p-3">Back to index page</a>
+            <input type="submit" name="submit" value="Submit Record" class="btn btn-success shadow-lg ms-4 p-3">
+            <a href="index.php" class="btn btn-danger shadow-lg align-self-center me-4 p-3">Back to index page</a>
             
         </div>
         
